@@ -11,7 +11,17 @@
   align-content: center;
   background-color: #17a2b8;
   color: #f8f9fa;
+  padding: 50px;
 }
 .heading {
   background-color: #17a2b8;
+  padding: 50px;
+}
+form {
+  text-align: center;
+  color: #28a745;
+}
+
+label {
+  color: #28a745;
 }
