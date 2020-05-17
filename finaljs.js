@@ -3,23 +3,18 @@ var end = document.getElementById("number2");
 
 var button = document.querySelector(".submit-button");
 var form = document.querySelector(".form");
-function checkInput() {
-  if (start.value.trim() !== "" && end.value.trim() !== "") {
-    button.style.backgroundColor = "#fa923f";
-    button.disabled = false;
-  } else {
-    button.style.backgroundColor = "#979695";
-    button.disabled = true;
-  }
-}
+
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   
-  for(i = 20; i <= 100; i++)
-{
-    i = e;
-    if( e ÷ 2 == 0)
-    {
-        print(e)
-    }
+   for (var x = 0; x<=100; x++)
+   if (x === 0) {
+    console.log(x +  " is even");
+}
+else if (x % 2 === 0) {
+    console.log(x + " is even");   
+}
+else {
+    console.log(x + " is odd");
+}
 }
