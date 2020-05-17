@@ -1,0 +1,17 @@
+#title {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  background-color: #17a2b8;
+  color: #dc3545;
+}
+#subtitle {
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  background-color: #17a2b8;
+  color: #f8f9fa;
+}
+.heading {
+  background-color: #17a2b8;
+}
